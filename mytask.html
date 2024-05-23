@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Team Page</title>
+    <link rel="stylesheet" href="mytask.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            margin-top: 20px;
+            padding: 0 20px;
+        }
+        .header h1 {
+            font-size: 3em;
+            margin: 0;
+            color: red;
+        }
+        .highlight {
+            font-size: 1.5em;
+            color: rgb(11, 9, 9);
+            font-weight: bold;
+        }
+        .myteam {
+            font-size: 3em;
+            color: rgb(235, 15, 51);
+            margin: 20px 0;
+            font-weight: bold;
+            text-align: center;
+        }
+        .header p {
+            font-size: 1.5em;
+            margin: 10px 0;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .header hr {
+            border: none;
+            border-top: 2px dotted #ccc;
+            width: 50%;
+            margin: 20px auto;
+        }
+        .team {
+            text-align: center;
+            padding: 20px;
+        }
+        .team h2 {
+            font-size: 3em;
+            font-weight: bold;
+            margin: 20px 0;
+            color: rgb(231, 14, 50);
+        }
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .team-member {
+            margin: 20px;
+            text-align: center;
+        }
+        .team-member img {
+            width: 150px;
+            height: 200px;
+            border-radius: 50% / 25%; /* Creates an oval shape */
+            object-fit: cover;
+        }
+        .team-member h3 {
+            font-size: 1.5em;
+            margin: 10px 0 5px;
+        }
+        .team-member p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .myteam-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 40vh;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>VeriTech Software</h1>
+        <p>Welcome to VeriTech, where a dedicated team of professionals works to bring innovation, creativity, and expertise to the software industry. Get to know the individuals who make our company thrive.</p>
+        <hr>
+        <p>-------------------------------------------------------------------------------</p>
+        <p class="highlight">Meet Our Team</p>
+    </header>
+    <section class="team myteam-section">
+        <p class="myteam">Leadership Team</p>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="member1.jpg" alt="Member 1">
+                <h3>Member 1</h3>
+                <p>Role 1</p>
+            </div>
+            <div class="team-member">
+                <img src="member2.jpg" alt="Member 2">
+                <h3>Member 2</h3>
+                <p>Role 2</p>
+            </div>
+            <div class="team-member">
+                <img src="member3.jpg" alt="Member 3">
+                <h3>Member 3</h3>
+                <p>Role 3</p>
+            </div>
+            <div class="team-member">
+                <img src="member4.jpg" alt="Member 4">
+                <h3>Member 4</h3>
+                <p>Role 4</p>
+            </div>
+        </div>
+    </section>
+    <section class="team myteam-section">
+        <p class="myteam">Development Team</p>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="dev1.jpg" alt="Dev 1">
+                <h3>Dev 1</h3>
+                <p>Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="dev2.jpg" alt="Dev 2">
+                <h3>Dev 2</h3>
+                <p>Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="dev3.jpg" alt="Dev 3">
+                <h3>Dev 3</h3>
+                <p>Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="dev4.jpg" alt="Dev 4">
+                <h3>Dev 4</h3>
+                <p>Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="dev5.jpg" alt="Dev 5">
+                <h3>Dev 5</h3>
+                <p>Developer</p>
+            </div>
+        </div>
+    </section>
+    <section class="team myteam-section">
+       <p class="myteam">Sales and Marketing Team</p>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="sales1.jpg" alt="Sales 1">
+                <h3>Sales 1</h3>
+                <p>Sales Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="sales2.jpg" alt="Sales 2">
+                <h3>Sales 2</h3>
+                <p>Marketing Specialist</p>
+            </div>
+            <div class="team-member">
+                <img src="sales3.jpg" alt="Sales 3">
+                <h3>Sales 3</h3>
+                <p>Sales Associate</p>
+            </div>
+            <div class="team-member">
+                <img src="sales4.jpg" alt="Sales 4">
+                <h3>Sales 4</h3>
+                <p>Marketing Coordinator</p>
+            </div>
+            <div class="team-member">
+                <img src="sales5.jpg" alt="Sales 5">
+                <h3>Sales 5</h3>
+                <p>Sales Representative</p>
+            </div>
+            <div class="team-member">
+                <img src="sales6.jpg" alt="Sales 6">
+                <h3>Sales 6</h3>
+                <p>Marketing Analyst</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
